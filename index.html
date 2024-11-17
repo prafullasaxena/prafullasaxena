@@ -1,7 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #003366;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #004080;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Professor [Your Name]</h1>
+        <p>Welcome to my personal academic website</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#teachings">Teachings</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+
+    <main id="home">
+        <div class="photo">
+            <img src="profile-photo.jpg" alt="Professor's Photo">
+        </div>
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Professor [Your Name], specializing in [Your Specialization/Field of Research]. 
+            I am currently a faculty member at [Your Institution] and have been actively involved 
+            in research and teaching for over [X] years. My areas of interest include [List Key Interests/Topics].
+        </p>
+        <p>
+            Through this website, you can explore my teaching methodologies, research contributions, 
+            ongoing projects, and ways to get in touch with me. 
+            I am always open to collaborations and discussions about groundbreaking ideas in [Your Field].
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Professor [Your Name]. All rights reserved.</p>
+    </footer>
 </body>
 </html>
